@@ -1,0 +1,88 @@
+body {
+  background-image: url("./images/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Varela Round", sans-serif;
+}
+.randomMake{
+  margin: 0 auto;
+  padding: 10px 30px;
+  font-size: 20px;
+  font-weight: 500;
+  border: 5px solid #000;
+  border-radius: 50px;
+  cursor: pointer;
+  display: block;
+}
+.quiz{
+  margin: 0 auto;
+  display: block;
+  width: 500px;
+  text-align: center;
+}
+h1 {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  font-size: 72px;
+}
+.number_area{
+  margin-top: 20px;
+}
+input{
+  width:300px;
+}
+.answer{
+  text-align: center;
+    margin-top: 20px;
+}
+.popUp{
+  position: absolute;
+  top:50%;
+  left:50%;
+  background-color: rgba(0, 0, 0, 0.817);
+  color:#fff;
+  transform: translateX(-50%);
+  width:400px;
+  height:200px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popUp{
+  visibility: hidden;
+}
+.popUp .material-icons{
+  font-size: 30px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.popUp .material-icons:hover{
+  font-size: 40px;
+}
+.popUp div{
+  font-size: 20px;
+}
+.popUp .material-icons,.popUp div{
+  padding: 10px;
+
+  text-align: center;
+}
+input[type='number']{
+  padding: 8px;
+}
+input[type='submit']{
+  visibility: hidden;
+  width: auto;
+  background: #7de8ff;
+  border: 4px solid #000;
+  color: #000;
+  padding: 5px 20px;
+  border-radius: 19px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.answer div{
+  padding:5px;
+  
+}
