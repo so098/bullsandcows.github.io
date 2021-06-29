@@ -45,9 +45,11 @@ $form.addEventListener('submit',(event)=>{
                     const com = $input.value.indexOf(answer[k]);
                     console.log(com);
                     if(com != -1){
-                        strike++;
-                    }else if(com === -1){
-                        boll++;
+                        if(com === k){
+                            strike++;
+                        }else{
+                            boll++;
+                        }
                     }
                 }
                 $answer.innerHTML += `<div>${strike}스트라이크, ${boll}볼 입니다.</div>`   
